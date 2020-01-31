@@ -1,0 +1,53 @@
+<html>
+<head>
+	<style>
+	 .container {
+ display: grid;
+grid-template-columns: repeat(9,1fr);
+ grid-template-rows: 75px 75px 75px;
+ grid-gap: 3px;
+ }
+ .angka1 {
+ background: lightgreen;
+  grid-column-start: 1;
+ grid-column-end: 3;
+ }
+ .angka2 {
+ background: yellow;
+  grid-column-start: 3;
+ grid-column-end: 3;
+ }
+ .angka3 {
+ background: aquamarine;
+ grid-row-start:2;
+ grid-row-end:4;
+ }
+ .angka4 {
+ background: violet;
+  grid-column-start: 2;
+ grid-column-end: 4;
+ }
+ .angka5 {
+ background: lightgreen;
+    grid-column-start:2;
+ grid-column-end: 2;
+ }
+ .angka6 {
+ background: orange;
+    grid-column-start:3;
+ grid-column-end: 3;
+ }
+
+</style>
+</head>
+<body>
+<div class="container">
+ <div class='angka1'>1</div>
+ <div class='angka2'>2</div>
+ <div class='angka3'> 3</div>
+ <div class='angka4'> 4</div>
+ <div class='angka5'> 5</div>
+ <div class='angka6'>6</div>
+</div>
+</body>
+</html>
